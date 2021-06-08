@@ -1,0 +1,159 @@
+@media (max-width: 1280px) {
+    .logo-img {
+        max-width: 90px;
+        max-height: 90px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .page-pagination {
+        margin-bottom: 40px;
+    }
+    .travel-page__slider-container {
+        margin: 50px 0;
+    }
+    .travels-page__block {
+        width: 32%;
+    }
+    .news-page__block {
+        margin-bottom: 30px;
+        width: 49%;
+    }
+    .travels-page__block:last-child {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .travel-page__top-img-container {
+        width: 200%;
+    }
+}
+
+@media (min-width: 769px) {
+    .travels-page__block {
+        position: relative;
+        overflow: hidden;
+    }
+    .travels-page__block:hover .travels-page__city-name {
+        margin-bottom: 70px;
+    }
+    .travels-page__block:hover .travels-page__btn-more {
+        bottom: 0;
+    }
+    .travels-page__btn-more {
+        position: absolute;
+        left: calc(50% - 73px);
+        bottom: -65px;
+    }
+    .travel__slider-arrow {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-img {
+        max-width: 75px;
+        max-height: 75px;
+    }
+    .header__text-link {
+        font-size: 18px;
+    }
+    .header__youtube-img {
+        max-width: 40px;
+        max-height: 40px;
+    }
+    .header-menu {
+        display: none;
+    }
+    .burger {
+        display: inline-block;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .breadcrumbs {
+        display: none;
+    }
+    .title {
+        margin: 0 0 40px;
+    }
+    .title::after {
+        left: 48%;
+    }
+    .travel-page__content p {
+        font-size: 16px;
+    }
+    .travel-page__top-description {
+        font-size: 22px;
+    }
+    .travels-page__block {
+        width: 49%;
+        background-size: cover;
+    }
+    .travels-page__block:last-child {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (max-width: 650px) {
+    .travel-page__top {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .travel-page__top-description {
+        font-size: 20px;
+        text-align: center;
+        width: 95%;
+    }
+    .travel-page__slider-container {
+        margin: 30px 0;
+    }
+    .travel-page__top-img-container {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .travels-page__block {
+        height: 260px;
+    }
+    .news-page__block {
+        width: 90%;
+        margin: 0 auto 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .travels-page__block {
+        width: 90%;
+        height: contain;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .header__youtube {
+        display: none;
+    }
+    .header__text {
+        min-width: 25%;
+    }
+    .header__top-item {
+        width: 13%;
+    }
+    .title::after {
+        left: 45%;
+    }
+    .page-pagination {
+        margin-bottom: 30px;
+    }
+    .news-page__block {
+        width: 100%;
+    }
+}

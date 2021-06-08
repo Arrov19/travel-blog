@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/lib/swiper.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/adaptive.css">
+</head>
+
+<body class="page">
+    <div id="mobileMenuWrapper">
+        <div class="bg"></div>
+        <div class="mobile-menu">
+            <div class="mobile-menu__inner">
+                <a href="#" class="mobile-menu__logo">
+                    <img class="logo-img" src="assets/img/logo/logo-100x100.svg" alt="logo">
+                </a>
+                <div class="mobile-menu__close"></div>
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">О нас</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">Путешествия</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="#" class="mobile-menu__link">Это интересно</a>
+                    </li>
+                </ul>
+                <a class="mobile-menu__youtube youtube-btn" href="#">
+                Перейти на канал
+                <img class="mobile-menu__youtube-img youtube-btn__img" src="assets/img/icons/youtube-btn.svg" alt="">
+            </a>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <p class="header__top-item header__text">
+                    <a class="header__text-link" href="#">Блог о путешествиях</a>
+                </p>
+                <a class="header__top-item header__top-item_logo" href="#">
+                    <img class="logo-img" src="assets/img/logo/logo-100x100.svg" alt="logo">
+                </a>
+                <div class="header__top-item header__top-item_right">
+                    <button class="burger" id="burger"></button>
+                    <a class="header__youtube youtube-circle" href="#">
+                        <img class="header__youtube-img youtube-circle__img" src="assets/img/icons/youtube-circle.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav class="header-menu">
+            <ul class="header-menu__list">
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="#">О нас</a>
+                </li>
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="#">Путешествия</a>
+                </li>
+                <li class="header-menu__item">
+                    <a class="header-menu__link" href="#">Это интересно</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="first-screen">
+            <div class="container">
+                <div class="first-screen__inner">
+                    <div class="first-screen__left-col">
+                        <h2 class="first-screen__title">Блог о путешествиях</h2>
+                        <p class="first-screen__description">
+                            Совсем скоро наши любимые страны вновь откроются, и&nbsp;нас ждёт волна реваншистского туризма&quot;. Скорее всего, цены на&nbsp;билеты взлетят и&nbsp;к&nbsp;привычным значениям вернутся нескоро&nbsp;&mdash; есть повод готовиться к&nbsp;этому моменту
+                            заранее. Да, сейчас мало куда можно улететь, но&nbsp;стоит подстелить себе солому, чтобы делать это дешевле в&nbsp;будущем.
+                        </p>
+                        <a class="first-screen__btn btn" href="#">Посмотреть наши путешествия<img class="btn__arrow" src="assets/img/icons/arrow-btn.svg" alt=""></a>
+                    </div>
+                    <div class="first-screen__right-col">
+                        <img class="first-screen__img" src="assets/img/other/human-blog.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="container">
+                <h2 class="news__title title">Это интересно</h2>
+                <div class="news__blocks-slider swiper-container">
+                    <div class="news__blocks swiper-wrapper">
+                        <a class="news__block swiper-slide" href="#">
+                            <img class="news__img" src="assets/img/news/new-1.png" alt="">
+                            <h3 class="news__block-title">Россия ужесточила правила въезда из-за границы</h3>
+                            <p class="news__description">
+                                С&nbsp;1&nbsp;мая Россия ужесточила правила въезда в&nbsp;страну из-за рубежа для российских туристов&nbsp;&mdash; с&nbsp;этого дня все россияне, пересекающие границу...
+                            </p>
+                        </a>
+                        <a class="news__block swiper-slide" href="#">
+                            <img class="news__img" src="assets/img/news/new-2.png" alt="">
+                            <h3 class="news__block-title">Холодный ветер пробирал до костей</h3>
+                            <p class="news__description">
+                                Далекое плато Путорана, или, как называли его эвенки, &laquo;пэтэрэ&raquo;&nbsp;&mdash; &laquo;покрытое облаками&raquo;, давно известно своей труднодоступностью. Его красоту и&nbsp;уникальность...
+                            </p>
+                        </a>
+                        <a class="news__block swiper-slide" href="#">
+                            <img class="news__img" src="assets/img/news/new-3.png" alt="">
+                            <h3 class="news__block-title">Весь мир отрезан от России сейчас</h3>
+                            <p class="news__description">
+                                12&nbsp;апреля правительство России объявило о&nbsp;приостановке авиасообщения в&nbsp;Турцию и&nbsp;Танзанию на&nbsp;полтора месяца&nbsp;&mdash; с&nbsp;15&nbsp;апреля&nbsp;по...
+                            </p>
+                        </a>
+                    </div>
+                    <div class="slider-btn-prev news__slider-arrow swiper-button-prev"></div>
+                    <div class="slider-btn-next news__slider-arrow swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="btn-wrapper">
+                    <a class="news__btn btn" href="#">Все новости<img class="btn__arrow" src="assets/img/icons/arrow-btn.svg" alt=""></a>
+                </div>
+            </div>
+        </section>
+        <section class="travels">
+            <div class="travels__inner">
+                <h2 class="travels__title title">Наши путешествия</h2>
+                <div class="travels__blocks-slider swiper-container">
+                    <div class="travels__blocks swiper-wrapper">
+                        <div class="travels__block swiper-slide" style="background-image: url('assets/img/cities/Kazan.jpg');">
+                            <p class="travels__city-name">Казань</p>
+                            <a class="travels__btn-more" href="#">Подробнее</a>
+                        </div>
+                        <div class="travels__block swiper-slide" style="background-image: url('assets/img/cities/Nizhny-Novgorod.jpg');">
+                            <p class="travels__city-name">Нижний<br>Новгород</p>
+                            <a class="travels__btn-more" href="#">Подробнее</a>
+                        </div>
+                        <div class="travels__block swiper-slide" style="background-image: url('assets/img/cities/Moscow.jpg');">
+                            <p class="travels__city-name">Москва</p>
+                            <a class="travels__btn-more" href="#">Подробнее</a>
+                        </div>
+                        <div class="travels__block swiper-slide" style="background-image: url('assets/img/cities/Vladivostok.jpg');">
+                            <p class="travels__city-name">Владивосток</p>
+                            <a class="travels__btn-more" href="#">Подробнее</a>
+                        </div>
+                        <div class="travels__block swiper-slide" style="background-image: url('assets/img/cities/Vladivostok.jpg');">
+                            <p class="travels__city-name">Владивосток</p>
+                            <a class="travels__btn-more" href="#">Подробнее</a>
+                        </div>
+                        <div class="travels__block swiper-slide" style="background-image: url('assets/img/cities/Moscow.jpg');">
+                            <p class="travels__city-name">Москва</p>
+                            <a class="travels__btn-more" href="#">Подробнее</a>
+                        </div>
+                        <div class="travels__block swiper-slide" style="background-image: url('assets/img/cities/Kazan.jpg');">
+                            <p class="travels__city-name">Казань</p>
+                            <a class="travels__btn-more" href="#">Подробнее</a>
+                        </div>
+                        <div class="travels__block swiper-slide" style="background-image: url('assets/img/cities/Nizhny-Novgorod.jpg');">
+                            <p class="travels__city-name">Нижний<br>Новгород</p>
+                            <a class="travels__btn-more" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="slider-btn-prev travel__slider-arrow swiper-button-prev"></div>
+                    <div class="slider-btn-next travel__slider-arrow swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="btn-wrapper">
+                    <a class="travels__btn btn" href="#">
+                        Все путешествия
+                        <img class="btn__arrow" src="assets/img/icons/arrow-btn.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__inner">
+            <a class="footer__logo" href="#">
+                <img class="footer__logo-img" src="assets/img/logo/logo-60x60.svg" alt="logo">
+            </a>
+            <a class="footer__link" href="#">О нас</a>
+            <a class="footer__link" href="#">Путешествия</a>
+            <a class="footer__link" href="#">Это интересно</a>
+            <a class="footer__youtube youtube-btn" href="#">
+                Перейти на канал
+                <img class="footer__youtube-img youtube-btn__img" src="assets/img/icons/youtube-btn.svg" alt="">
+            </a>
+            <div class="footer__copy">&copy; Copyright 2021 - https://travelblog.ru<br>“Блог о путешествиях”</div>
+        </div>
+    </footer>
+
+    <script src="assets/lib/swiper.js"></script>
+    <script src="assets/lib/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
